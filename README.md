@@ -13,7 +13,7 @@
 ## ⚡ Key Features
 * **Layer 7 HTTP Flood:** Targets the Application Layer by mimicking legitimate HTTP traffic.
 * **Multi-threading:** Executes thousands of concurrent requests to overwhelm CPU/RAM usage.
-* **Cross-Platform Compatibility:** Optimized for Kali Linux, Ubuntu, macOS, and Termux.
+* **Cross-Platform Compatibility:** Optimized for *Kali Linux, Ubuntu, macOS* and *Termux*.
 * **High Efficiency:** Fine-tuned to maximize impact with minimal local resource overhead.
 
 ---
@@ -31,3 +31,20 @@
 Root access provides direct access to network sockets, ensuring maximum throughput for the attack.
 ```bash
 sudo python3 run.py
+```
+## 2. Termux (No Root Access)
+​This tool is optimized to work seamlessly on Termux without root privileges using Python requests.
+```bash
+pkg install python
+pip install requests colorama
+python run.py
+```
+## ⚙️ Configuration & Optimization
+
+**​1) Thread Count:**
+You can set threads to *1000+*. Note that the effectiveness of the attack is directly proportional to your available RAM and Internet upload speed.
+​**2) VPS Power:**
+For maximum "*War Machine*" performance, deploy this tool on a VPS (Virtual Private Server). Utilizing the high bandwidth of a data center will allow you to take down target sites in seconds.
+​
+## ⚠️ Disclaimer
+​This tool is intended strictly for educational purposes and authorized security testing. Unauthorized use of this tool against targets without explicit permission is illegal and unethical. The developer is not responsible for any misuse of this software.
