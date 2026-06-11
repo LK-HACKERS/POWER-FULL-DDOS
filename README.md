@@ -1,4 +1,4 @@
-# 🚀 WarMachine - Advanced LK-HACKERS L7 DDOS Toolkit
+# 🚀 WarMachine - Advanced LK-HACKERS L7 DDOS Toolkit. (Error 503/504)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Python-blue.svg">
