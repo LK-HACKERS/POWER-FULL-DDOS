@@ -26,7 +26,7 @@ def blink_banner():
         sys.stdout.write("\r" + Fore.BLACK + "  ██╗     ██╗  ██╗  ██╗   ██╗██╗  ██╗ ██████╗ ██████╗ ██████╗ ███████╗██████╗  ██████╗ ██████╗ ██████╗  ██████╗ ███████╗██████╗ ")
         sys.stdout.flush()
         time.sleep(0.5)
-    print("\n" + Fore.RED + Style.BRIGHT + "             [ LK-HACKERS POWER FULL DDOS ]")
+    print("\n" + Fore.RED + Style.BRIGHT + "             [ LK-HACKERS POWER FULL DDOS /CYBER BLACK LION ]")
     print(Fore.RED + "======================================================================================")
 
 def attack(target, threads_count):
