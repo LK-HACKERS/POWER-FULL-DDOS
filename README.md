@@ -1,4 +1,4 @@
-# 🚀 WarMachine - Advanced LK-HACKERS L7 DDoS Toolkit
+# 🚀 WarMachine - Advanced LK-HACKERS L7 DDOS Toolkit
 
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Python-blue.svg">
@@ -30,6 +30,7 @@
 ### 1. Kali Linux / Ubuntu / Mac OS (Root Access)
 Root access provides direct access to network sockets, ensuring maximum throughput for the attack.
 ```bash
+pip install requests colorama
 git clone https://github.com/LK-HACKERS/POWER-FULL-DDOS.git
 cd POWER-FULL-DDOS
 sudo python3 run.py
